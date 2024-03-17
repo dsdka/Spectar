@@ -1,0 +1,50 @@
+.wrapper {
+  /* width: 700px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  /* height: 350px; */
+  /* align-items: center; */
+  /* padding: 20px; */
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  /* margin-bottom: 20px; */
+}
+
+.form {
+  width: 200px;
+  /* margin-bottom: 20px; */
+}
+
+.forgot {
+  font-size: 13px;
+  color: #138f71;
+  cursor: pointer;
+  width: 50%;
+  text-align: end;
+}
+
+.btn {
+  width: 300px;
+  margin-right: 0;
+}
+.flex {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.actionWrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.addBtn {
+  margin: 20px;
+  text-align: end;
+}
