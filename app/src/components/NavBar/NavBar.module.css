@@ -1,0 +1,22 @@
+.navMenuWrapper {
+  display: flex;
+  background-color: #157eb2;
+  justify-content: space-between;
+  height: 45px;
+  align-items: center;
+}
+
+.navWrapper {
+  width: 100%;
+  background-color: #157eb2;
+  height: max-content;
+  border: none !important;
+}
+
+.navItemSelected > a {
+  color: #fff !important;
+}
+
+
+
+

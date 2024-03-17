@@ -1,0 +1,10 @@
+node_modules/
+build/
+temp/
+package-lock.json
+.eslintrc.js
+npm-debug.log
+*.swp
+.vscode/
+uploaded/
+.idea/

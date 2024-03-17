@@ -1,0 +1,9 @@
+*.swp
+services /.vscode /
+  services / npm - debug.log
+coverage /
+.nyc_output /
+** /.DS_Store
+services / gateway / img / signatures
+scripts / dbinit / cookies.txt
+scripts / upload_data / cookies.txt

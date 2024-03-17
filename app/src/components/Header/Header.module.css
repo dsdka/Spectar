@@ -1,0 +1,36 @@
+.wrapper {
+width: 100%;
+height: 60px;
+justify-content: space-between;
+align-items: center;
+display: flex;
+color: #157eb2;
+border-bottom: 1px solid #157eb2;
+}
+
+.title {
+  font-weight:bold;
+  letter-spacing: 1.4;
+}
+
+.logo {
+  margin: 0px 50px 0px 30px;
+  height: 40px;
+  width: 190px;
+  cursor: pointer;
+}
+
+.login_wrapper {
+  margin-right: 45px;
+  /* width: 200px; */
+  text-align: end;
+}
+
+.user_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.user_name {
+  padding: 10px;
+}

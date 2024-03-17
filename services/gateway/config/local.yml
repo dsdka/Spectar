@@ -1,0 +1,25 @@
+service:
+  name: gateway
+server:
+  port: 4000
+  allow_origins: ["http://localhost:3000"]
+session:
+  secure: false
+  sameSite: "lax"
+  expire: null
+app_service:
+  url: "http://localhost:3000"
+database:
+  user: "postgres"
+  host: "localhost"
+  database: "postgres"
+  password: "sppass"
+  port: 5432
+  maxConnections: 5
+general:
+  password_reset:
+    digits: 6
+    expiration_in_seconds: 1800
+
+
+
